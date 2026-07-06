@@ -18,7 +18,6 @@
 - Core Objective: Structural and thermodynamic selectivity mapping of HIV-1 Protease Inhibitors against off-target human proteases.
 - Scientific Rationale: Selectivity is a cornerstone of drug safety and medicinal chemistry, as off-target cross-reactivity can lead to severe side effects and clinical trial failures. HIV-1 Protease has extensive public datasets available, alongside well-documented human off-target homologs like Cathepsin D and BACE1.
 - Scientific Approach: Curate a diverse library of 20–30 known HIV-1 protease inhibitors (including FDA-approved agents and clinical phase failures), perform molecular docking across both the viral target and human homologs, extract thermodynamic binding affinities (Free Energy of Binding, ΔG), calculate selectivity metrics (ΔΔG), and correlate structural characteristics (e.g., interaction maps with pocket regions like S1) with achieved selectivity profiles.
-- End Goal: Build a reproducible, well-documented project to pitch to a University Principal Investigator (PI) to secure a competitive undergraduate research position.
 
 ---
 
