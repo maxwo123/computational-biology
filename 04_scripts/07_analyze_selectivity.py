@@ -86,7 +86,16 @@ print("\n=== Pearson r: selectivity vs descriptors ===")
 print(corr.round(3).to_string())
 
 # ================= FIGURES =================
-plt.rcParams.update({"figure.dpi": 130, "font.size": 9})
+# High-resolution raster (300 dpi) + true vector (PDF) exports. Vector files stay
+# perfectly sharp at any zoom because they store geometry/text as math, not pixels.
+plt.rcParams.update({"figure.dpi": 300, "savefig.dpi": 300, "font.size": 9,
+                     "pdf.fonttype": 42, "svg.fonttype": "none"})
+
+def save_fig(name):
+    """Save the current figure as a 300-dpi PNG and a vector PDF, then close."""
+    plt.savefig(os.path.join(RES, f"{name}.png"), dpi=300, bbox_inches="tight")
+    plt.savefig(os.path.join(RES, f"{name}.pdf"), bbox_inches="tight")
+    plt.close()
 
 # Fig 1: affinity heatmap
 fig, ax = plt.subplots(figsize=(6, 8))
@@ -100,7 +109,7 @@ for i in range(len(hm)):
         ax.text(j, i, f"{mat[i,j]:.1f}", ha="center", va="center", color="w", fontsize=6)
 plt.colorbar(im, label="Vina affinity (kcal/mol)")
 ax.set_title("Docking affinity: library x receptor")
-plt.tight_layout(); plt.savefig(os.path.join(RES, "fig1_affinity_heatmap.png")); plt.close()
+plt.tight_layout(); save_fig("fig1_affinity_heatmap")
 
 # Fig 2: selectivity bar plot
 fig, ax = plt.subplots(figsize=(7, 6))
@@ -114,7 +123,7 @@ ax.set_xlabel("Selectivity  min(ΔΔG)  (kcal/mol)   →  more HIV-selective")
 ax.set_title("HIV-1 protease selectivity vs human off-targets")
 handles = [plt.Rectangle((0,0),1,1,color=c) for c in colors.values()]
 ax.legend(handles, colors.keys(), fontsize=8, loc="lower right")
-plt.tight_layout(); plt.savefig(os.path.join(RES, "fig2_selectivity.png")); plt.close()
+plt.tight_layout(); save_fig("fig2_selectivity")
 
 # Fig 3: PCA of binding profiles, colored by cluster
 pca = PCA(n_components=2).fit(Xs); pcs = pca.transform(Xs)
@@ -125,7 +134,7 @@ for i, nm in enumerate(wide["name"]):
 ax.set_xlabel(f"PC1 ({pca.explained_variance_ratio_[0]*100:.0f}%)")
 ax.set_ylabel(f"PC2 ({pca.explained_variance_ratio_[1]*100:.0f}%)")
 ax.set_title("Clustering of compounds by 3-receptor binding profile")
-plt.tight_layout(); plt.savefig(os.path.join(RES, "fig3_clusters_pca.png")); plt.close()
+plt.tight_layout(); save_fig("fig3_clusters_pca")
 
 # Fig 4: HIV vs off-target scatter (selectivity landscape)
 fig, ax = plt.subplots(figsize=(6.5, 5.5))
@@ -140,7 +149,7 @@ for i, nm in enumerate(wide["name"]):
 ax.set_xlabel("HIV-1 protease affinity (kcal/mol)")
 ax.set_ylabel("Best off-target affinity (kcal/mol)")
 ax.set_title("Points below the diagonal = HIV-selective")
-plt.tight_layout(); plt.savefig(os.path.join(RES, "fig4_selectivity_landscape.png")); plt.close()
+plt.tight_layout(); save_fig("fig4_selectivity_landscape")
 
 n_sel = int(wide["selective_for_hiv"].sum())
 print(f"\n{n_sel}/{len(wide)} compounds are HIV-selective (bind HIV-1 protease "
