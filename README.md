@@ -4,6 +4,8 @@
 
 This repository is a digital lab notebook for a structure-based selectivity study. It curates a library of HIV-1 protease inhibitors, docks each one against the viral target *and* two human off-target enzymes, and quantifies **selectivity** (ΔΔG) — the degree to which each drug prefers the viral protease over host enzymes. Off-target cross-reactivity is a leading cause of drug toxicity and clinical-trial failure, so mapping it computationally is a core exercise in medicinal chemistry.
 
+> 📄 **A full write-up is available as a research paper: [`HIV_PI_Selectivity_Paper.pdf`](HIV_PI_Selectivity_Paper.pdf)** (abstract, methods, results, figures, discussion, references). It is regenerated from the data by `04_scripts/09_build_paper.py`.
+
 > **Scientific honesty note.** Every binding number in this repo is the output of a real AutoDock Vina run on real prepared structures — nothing is hand-authored or estimated. Docking scores are *approximate* predictions (Vina's scoring function has ~2–3 kcal/mol error and does not replace experiment); they are used here for **relative** ranking, which is the appropriate use of docking.
 
 ---
