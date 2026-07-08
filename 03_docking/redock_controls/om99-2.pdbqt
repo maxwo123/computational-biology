@@ -1,0 +1,422 @@
+REMARK  Name = /Users/max/Desktop/HIV_Selectivity_Project/02_ligands/bace1_native_om99-2.pdb
+REMARK  37 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: N_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_11  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_14  and  C_16
+REMARK   11  A    between atoms: N_17  and  C_18
+REMARK   12  A    between atoms: C_18  and  C_19
+REMARK   13  A    between atoms: C_18  and  C_21
+REMARK   14  A    between atoms: C_21  and  C_22
+REMARK   15  A    between atoms: N_25  and  C_26
+REMARK   16  A    between atoms: C_26  and  C_33
+REMARK   17  A    between atoms: C_26  and  C_34
+REMARK   18  A    between atoms: C_27  and  C_36
+REMARK   19  A    between atoms: C_29  and  C_32
+REMARK   20  A    between atoms: O_30  and  C_34
+REMARK   21  A    between atoms: C_31  and  C_32
+REMARK   22  A    between atoms: C_32  and  C_33
+REMARK   23  A    between atoms: C_34  and  C_35
+REMARK   24  A    between atoms: C_35  and  C_36
+REMARK   25  A    between atoms: C_36  and  C_37
+REMARK   26  A    between atoms: N_38  and  CA_39
+REMARK   27  A    between atoms: CA_39  and  C_40
+REMARK   28  A    between atoms: CA_39  and  CB_42
+REMARK   29  A    between atoms: N_43  and  CA_44
+REMARK   30  A    between atoms: CA_44  and  C_45
+REMARK   31  A    between atoms: CA_44  and  CB_47
+REMARK   32  A    between atoms: CB_47  and  CG_48
+REMARK   33  A    between atoms: CG_48  and  CD_49
+REMARK   34  A    between atoms: N_52  and  CA_53
+REMARK   35  A    between atoms: CA_53  and  C_54
+REMARK   36  A    between atoms: CA_53  and  CB_56
+REMARK   37  A    between atoms: CB_56  and  CG_57
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   0      13.733  -2.113  -0.057  0.00  0.00    +0.126 C 
+ENDROOT
+BRANCH   1   4
+ATOM      2  C   UNK A   0      11.651  -1.001  -0.662  0.00  0.00    +0.262 C 
+ATOM      3  O   UNK A   0      11.216  -1.993  -1.262  0.00  0.00    -0.271 OA
+ATOM      4  N   UNK A   0      12.818  -0.983  -0.033  0.00  0.00    -0.203 N 
+ATOM      5  H   UNK A   0      13.074  -0.175   0.468  0.00  0.00    +0.000 HD
+BRANCH   2   6
+ATOM      6  C   UNK A   0      10.848   0.283  -0.577  0.00  0.00    +0.182 C 
+BRANCH   6   9
+ATOM      7  C   UNK A   0      11.634   2.532  -1.073  0.00  0.00    +0.262 C 
+ATOM      8  O   UNK A   0      11.023   3.034  -0.115  0.00  0.00    -0.271 OA
+ATOM      9  N   UNK A   0      11.558   1.247  -1.392  0.00  0.00    -0.196 N 
+ATOM     10  H   UNK A   0      12.001   0.936  -2.214  0.00  0.00    +0.000 HD
+BRANCH   7  11
+ATOM     11  C   UNK A   0      12.459   3.376  -2.010  0.00  0.00    +0.173 C 
+BRANCH  11  14
+ATOM     12  C   UNK A   0      11.459   5.216  -3.206  0.00  0.00    +0.259 C 
+ATOM     13  O   UNK A   0      11.685   4.668  -4.278  0.00  0.00    -0.272 OA
+ATOM     14  N   UNK A   0      11.846   4.691  -2.054  0.00  0.00    -0.197 N 
+ATOM     15  H   UNK A   0      11.717   5.197  -1.219  0.00  0.00    +0.000 HD
+BRANCH  12  16
+ATOM     16  C   UNK A   0      10.741   6.575  -3.159  0.00  0.00    +0.170 C 
+BRANCH  16  17
+ATOM     17  N   UNK A   0      11.157   7.433  -4.314  0.00  0.00    -0.123 N 
+ATOM     18  H   UNK A   0      12.164   7.591  -4.275  0.00  0.00    +0.000 HD
+ATOM     19  H   UNK A   0      10.670   8.328  -4.265  0.00  0.00    +0.000 HD
+ATOM     20  H   UNK A   0      10.920   6.964  -5.188  0.00  0.00    +0.000 HD
+ENDBRANCH  16  17
+BRANCH  16  21
+ATOM     21  C   UNK A   0       9.229   6.322  -3.194  0.00  0.00    +0.040 C 
+BRANCH  21  22
+ATOM     22  C   UNK A   0       8.683   5.692  -1.902  0.00  0.00    +0.116 C 
+BRANCH  22  23
+ATOM     23  C   UNK A   0       7.195   5.392  -1.955  0.00  0.00    +0.365 C 
+ATOM     24  O   UNK A   0       6.504   5.978  -2.826  0.00  0.00    -0.246 OA
+ATOM     25  O   UNK A   0       6.706   4.589  -1.128  0.00  0.00    -0.246 OA
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  16  21
+ENDBRANCH  12  16
+ENDBRANCH  11  14
+BRANCH  11  26
+ATOM     26  C   UNK A   0      13.943   3.379  -1.521  0.00  0.00    +0.029 C 
+ATOM     27  C   UNK A   0      14.885   3.684  -2.713  0.00  0.00    +0.002 C 
+ATOM     28  C   UNK A   0      14.143   4.384  -0.370  0.00  0.00    +0.002 C 
+ENDBRANCH  11  26
+ENDBRANCH   7  11
+ENDBRANCH   6   9
+BRANCH   6  29
+ATOM     29  C   UNK A   0       9.432   0.074  -1.114  0.00  0.00    +0.120 C 
+BRANCH  29  30
+ATOM     30  C   UNK A   0       8.493   1.181  -0.686  0.00  0.00    +0.263 C 
+ATOM     31  N   UNK A   0       8.180   2.105  -1.612  0.00  0.00    -0.088 N 
+ATOM     32  O   UNK A   0       8.066   1.214   0.462  0.00  0.00    -0.272 OA
+ATOM     33  H   UNK A   0       8.549   2.035  -2.522  0.00  0.00    +0.000 HD
+ATOM     34  H   UNK A   0       7.582   2.852  -1.380  0.00  0.00    +0.000 HD
+ENDBRANCH  29  30
+ENDBRANCH   6  29
+ENDBRANCH   2   6
+ENDBRANCH   1   4
+BRANCH   1  35
+ATOM     35  C   UNK A   0      15.131  -1.588  -0.435  0.00  0.00    +0.024 C 
+BRANCH  35  38
+ATOM     36  C   UNK A   0      15.055  -1.969  -2.899  0.00  0.00    +0.000 C 
+ATOM     37  C   UNK A   0      16.351   0.024  -2.004  0.00  0.00    +0.000 C 
+ATOM     38  C   UNK A   0      15.109  -0.894  -1.811  0.00  0.00    +0.002 C 
+ENDBRANCH  35  38
+ENDBRANCH   1  35
+BRANCH   1  39
+ATOM     39  C   UNK A   0      13.765  -2.881   1.280  0.00  0.00    +0.172 C 
+BRANCH  39  40
+ATOM     40  O   UNK A   0      14.354  -2.071   2.313  0.00  0.00    -0.221 OA
+ATOM     41  H   UNK A   0      15.242  -1.792   2.039  0.00  0.00    +0.000 HD
+ENDBRANCH  39  40
+BRANCH  39  42
+ATOM     42  C   UNK A   0      12.355  -3.328   1.708  0.00  0.00    +0.044 C 
+BRANCH  42  43
+ATOM     43  C   UNK A   0      12.303  -4.570   2.603  0.00  0.00    +0.081 C 
+ATOM     44  C   UNK A   0      11.028  -4.569   3.448  0.00  0.00    +0.010 C 
+BRANCH  43  45
+ATOM     45  C   UNK A   0      12.339  -5.826   1.721  0.00  0.00    +0.241 C 
+ATOM     46  O   UNK A   0      11.603  -5.891   0.720  0.00  0.00    -0.273 OA
+ATOM     47  N   ALA A   1      13.217  -6.778   2.074  0.00  0.00    -0.198 N 
+ATOM     48  H   ALA A   1      13.825  -6.599   2.828  0.00  0.00    +0.000 HD
+BRANCH  47  49
+ATOM     49  CA  ALA A   1      13.315  -8.071   1.392  0.00  0.00    +0.173 C 
+ATOM     50  CB  ALA A   1      14.389  -8.932   2.012  0.00  0.00    +0.033 C 
+BRANCH  49  51
+ATOM     51  C   ALA A   1      11.929  -8.667   1.577  0.00  0.00    +0.262 C 
+ATOM     52  O   ALA A   1      11.366  -8.705   2.710  0.00  0.00    -0.271 OA
+ATOM     53  N   GLU A   2      11.414  -9.285   0.438  0.00  0.00    -0.196 N 
+ATOM     54  H   GLU A   2      12.054  -9.479  -0.284  0.00  0.00    +0.000 HD
+BRANCH  53  55
+ATOM     55  CA  GLU A   2       9.988  -9.686   0.196  0.00  0.00    +0.173 C 
+BRANCH  55  56
+ATOM     56  C   GLU A   2       9.201 -10.695   0.998  0.00  0.00    +0.262 C 
+ATOM     57  O   GLU A   2       9.336 -11.907   1.087  0.00  0.00    -0.271 OA
+ATOM     58  N   PHE A   3       8.330  -9.780   1.583  0.00  0.00    -0.194 N 
+ATOM     59  H   PHE A   3       8.587  -8.901   1.221  0.00  0.00    +0.000 HD
+BRANCH  58  60
+ATOM     60  CA  PHE A   3       7.191  -9.518   2.502  0.00  0.00    +0.202 C 
+BRANCH  60  61
+ATOM     61  C   PHE A   3       7.151 -10.435   3.738  0.00  0.00    +0.385 C 
+ATOM     62  O   PHE A   3       8.132 -11.103   4.167  0.00  0.00    -0.244 OA
+ATOM     63  OXT PHE A   3       6.123 -10.480   4.474  0.00  0.00    -0.244 OA
+ENDBRANCH  60  61
+BRANCH  60  64
+ATOM     64  CB  PHE A   3       5.897  -9.491   1.743  0.00  0.00    +0.060 C 
+BRANCH  64  65
+ATOM     65  CG  PHE A   3       5.473 -10.880   1.596  0.00  0.00    -0.020 A 
+ATOM     66  CD1 PHE A   3       6.430 -11.828   1.276  0.00  0.00    -0.004 A 
+ATOM     67  CD2 PHE A   3       4.153 -11.259   1.768  0.00  0.00    -0.004 A 
+ATOM     68  CE1 PHE A   3       6.076 -13.164   1.122  0.00  0.00    -0.000 A 
+ATOM     69  CE2 PHE A   3       3.787 -12.586   1.647  0.00  0.00    -0.000 A 
+ATOM     70  CZ  PHE A   3       4.752 -13.530   1.322  0.00  0.00    -0.000 A 
+ENDBRANCH  64  65
+ENDBRANCH  60  64
+ENDBRANCH  58  60
+ENDBRANCH  55  56
+BRANCH  55  71
+ATOM     71  CB  GLU A   2       9.726  -9.796  -1.312  0.00  0.00    +0.043 C 
+BRANCH  71  72
+ATOM     72  CG  GLU A   2       8.737  -8.710  -1.756  0.00  0.00    +0.116 C 
+BRANCH  72  73
+ATOM     73  CD  GLU A   2       7.526  -9.231  -2.540  0.00  0.00    +0.365 C 
+ATOM     74  OE1 GLU A   2       7.695 -10.191  -3.320  0.00  0.00    -0.246 OA
+ATOM     75  OE2 GLU A   2       6.411  -8.681  -2.357  0.00  0.00    -0.246 OA
+ENDBRANCH  72  73
+ENDBRANCH  71  72
+ENDBRANCH  55  71
+ENDBRANCH  53  55
+ENDBRANCH  49  51
+ENDBRANCH  47  49
+ENDBRANCH  43  45
+ENDBRANCH  42  43
+ENDBRANCH  39  42
+ENDBRANCH   1  39
+TORSDOF 31
+REMARK  Name = /Users/max/Desktop/HIV_Selectivity_Project/02_ligands/bace1_native_om99-2.pdb
+REMARK  37 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: N_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_11  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_14  and  C_16
+REMARK   11  A    between atoms: N_17  and  C_18
+REMARK   12  A    between atoms: C_18  and  C_19
+REMARK   13  A    between atoms: C_18  and  C_21
+REMARK   14  A    between atoms: C_21  and  C_22
+REMARK   15  A    between atoms: N_25  and  C_26
+REMARK   16  A    between atoms: C_26  and  C_33
+REMARK   17  A    between atoms: C_26  and  C_34
+REMARK   18  A    between atoms: C_27  and  C_36
+REMARK   19  A    between atoms: C_29  and  C_32
+REMARK   20  A    between atoms: O_30  and  C_34
+REMARK   21  A    between atoms: C_31  and  C_32
+REMARK   22  A    between atoms: C_32  and  C_33
+REMARK   23  A    between atoms: C_34  and  C_35
+REMARK   24  A    between atoms: C_35  and  C_36
+REMARK   25  A    between atoms: C_36  and  C_37
+REMARK   26  A    between atoms: N_38  and  CA_39
+REMARK   27  A    between atoms: CA_39  and  C_40
+REMARK   28  A    between atoms: CA_39  and  CB_42
+REMARK   29  A    between atoms: N_43  and  CA_44
+REMARK   30  A    between atoms: CA_44  and  C_45
+REMARK   31  A    between atoms: CA_44  and  CB_47
+REMARK   32  A    between atoms: CB_47  and  CG_48
+REMARK   33  A    between atoms: CG_48  and  CD_49
+REMARK   34  A    between atoms: N_52  and  CA_53
+REMARK   35  A    between atoms: CA_53  and  C_54
+REMARK   36  A    between atoms: CA_53  and  CB_56
+REMARK   37  A    between atoms: CB_56  and  CG_57
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     1       7.971   4.049   1.192  0.00  0.00    +0.000 OA
+ATOM      2  H   HOH     1       8.941   4.049   1.192  0.00  0.00    +0.000 HD
+ATOM      3  H   HOH     1       7.648   3.196   1.521  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0
+REMARK  Name = /Users/max/Desktop/HIV_Selectivity_Project/02_ligands/bace1_native_om99-2.pdb
+REMARK  37 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: N_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_11  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_14  and  C_16
+REMARK   11  A    between atoms: N_17  and  C_18
+REMARK   12  A    between atoms: C_18  and  C_19
+REMARK   13  A    between atoms: C_18  and  C_21
+REMARK   14  A    between atoms: C_21  and  C_22
+REMARK   15  A    between atoms: N_25  and  C_26
+REMARK   16  A    between atoms: C_26  and  C_33
+REMARK   17  A    between atoms: C_26  and  C_34
+REMARK   18  A    between atoms: C_27  and  C_36
+REMARK   19  A    between atoms: C_29  and  C_32
+REMARK   20  A    between atoms: O_30  and  C_34
+REMARK   21  A    between atoms: C_31  and  C_32
+REMARK   22  A    between atoms: C_32  and  C_33
+REMARK   23  A    between atoms: C_34  and  C_35
+REMARK   24  A    between atoms: C_35  and  C_36
+REMARK   25  A    between atoms: C_36  and  C_37
+REMARK   26  A    between atoms: N_38  and  CA_39
+REMARK   27  A    between atoms: CA_39  and  C_40
+REMARK   28  A    between atoms: CA_39  and  CB_42
+REMARK   29  A    between atoms: N_43  and  CA_44
+REMARK   30  A    between atoms: CA_44  and  C_45
+REMARK   31  A    between atoms: CA_44  and  CB_47
+REMARK   32  A    between atoms: CB_47  and  CG_48
+REMARK   33  A    between atoms: CG_48  and  CD_49
+REMARK   34  A    between atoms: N_52  and  CA_53
+REMARK   35  A    between atoms: CA_53  and  C_54
+REMARK   36  A    between atoms: CA_53  and  CB_56
+REMARK   37  A    between atoms: CB_56  and  CG_57
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     2      12.432   0.366  -3.877  0.00  0.00    +0.000 OA
+ATOM      2  H   HOH     2      13.402   0.366  -3.877  0.00  0.00    +0.000 HD
+ATOM      3  H   HOH     2      12.109   1.252  -4.103  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0
+REMARK  Name = /Users/max/Desktop/HIV_Selectivity_Project/02_ligands/bace1_native_om99-2.pdb
+REMARK  37 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: N_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_11  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_14  and  C_16
+REMARK   11  A    between atoms: N_17  and  C_18
+REMARK   12  A    between atoms: C_18  and  C_19
+REMARK   13  A    between atoms: C_18  and  C_21
+REMARK   14  A    between atoms: C_21  and  C_22
+REMARK   15  A    between atoms: N_25  and  C_26
+REMARK   16  A    between atoms: C_26  and  C_33
+REMARK   17  A    between atoms: C_26  and  C_34
+REMARK   18  A    between atoms: C_27  and  C_36
+REMARK   19  A    between atoms: C_29  and  C_32
+REMARK   20  A    between atoms: O_30  and  C_34
+REMARK   21  A    between atoms: C_31  and  C_32
+REMARK   22  A    between atoms: C_32  and  C_33
+REMARK   23  A    between atoms: C_34  and  C_35
+REMARK   24  A    between atoms: C_35  and  C_36
+REMARK   25  A    between atoms: C_36  and  C_37
+REMARK   26  A    between atoms: N_38  and  CA_39
+REMARK   27  A    between atoms: CA_39  and  C_40
+REMARK   28  A    between atoms: CA_39  and  CB_42
+REMARK   29  A    between atoms: N_43  and  CA_44
+REMARK   30  A    between atoms: CA_44  and  C_45
+REMARK   31  A    between atoms: CA_44  and  CB_47
+REMARK   32  A    between atoms: CB_47  and  CG_48
+REMARK   33  A    between atoms: CG_48  and  CD_49
+REMARK   34  A    between atoms: N_52  and  CA_53
+REMARK   35  A    between atoms: CA_53  and  C_54
+REMARK   36  A    between atoms: CA_53  and  CB_56
+REMARK   37  A    between atoms: CB_56  and  CG_57
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     3       9.538   2.176  -4.175  0.00  0.00    +0.000 OA
+ATOM      2  H   HOH     3      10.508   2.176  -4.175  0.00  0.00    +0.000 HD
+ATOM      3  H   HOH     3       9.215   2.431  -3.297  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0
+REMARK  Name = /Users/max/Desktop/HIV_Selectivity_Project/02_ligands/bace1_native_om99-2.pdb
+REMARK  37 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: N_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_11  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_14  and  C_16
+REMARK   11  A    between atoms: N_17  and  C_18
+REMARK   12  A    between atoms: C_18  and  C_19
+REMARK   13  A    between atoms: C_18  and  C_21
+REMARK   14  A    between atoms: C_21  and  C_22
+REMARK   15  A    between atoms: N_25  and  C_26
+REMARK   16  A    between atoms: C_26  and  C_33
+REMARK   17  A    between atoms: C_26  and  C_34
+REMARK   18  A    between atoms: C_27  and  C_36
+REMARK   19  A    between atoms: C_29  and  C_32
+REMARK   20  A    between atoms: O_30  and  C_34
+REMARK   21  A    between atoms: C_31  and  C_32
+REMARK   22  A    between atoms: C_32  and  C_33
+REMARK   23  A    between atoms: C_34  and  C_35
+REMARK   24  A    between atoms: C_35  and  C_36
+REMARK   25  A    between atoms: C_36  and  C_37
+REMARK   26  A    between atoms: N_38  and  CA_39
+REMARK   27  A    between atoms: CA_39  and  C_40
+REMARK   28  A    between atoms: CA_39  and  CB_42
+REMARK   29  A    between atoms: N_43  and  CA_44
+REMARK   30  A    between atoms: CA_44  and  C_45
+REMARK   31  A    between atoms: CA_44  and  CB_47
+REMARK   32  A    between atoms: CB_47  and  CG_48
+REMARK   33  A    between atoms: CG_48  and  CD_49
+REMARK   34  A    between atoms: N_52  and  CA_53
+REMARK   35  A    between atoms: CA_53  and  C_54
+REMARK   36  A    between atoms: CA_53  and  CB_56
+REMARK   37  A    between atoms: CB_56  and  CG_57
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     4       4.176   3.833  -0.576  0.00  0.00    +0.000 OA
+ATOM      2  H   HOH     4       5.146   3.833  -0.576  0.00  0.00    +0.000 HD
+ATOM      3  H   HOH     4       3.853   4.626  -0.120  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0
+REMARK  Name = /Users/max/Desktop/HIV_Selectivity_Project/02_ligands/bace1_native_om99-2.pdb
+REMARK  37 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK    6  A    between atoms: N_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_11  and  C_14
+REMARK    9  A    between atoms: C_14  and  C_15
+REMARK   10  A    between atoms: C_14  and  C_16
+REMARK   11  A    between atoms: N_17  and  C_18
+REMARK   12  A    between atoms: C_18  and  C_19
+REMARK   13  A    between atoms: C_18  and  C_21
+REMARK   14  A    between atoms: C_21  and  C_22
+REMARK   15  A    between atoms: N_25  and  C_26
+REMARK   16  A    between atoms: C_26  and  C_33
+REMARK   17  A    between atoms: C_26  and  C_34
+REMARK   18  A    between atoms: C_27  and  C_36
+REMARK   19  A    between atoms: C_29  and  C_32
+REMARK   20  A    between atoms: O_30  and  C_34
+REMARK   21  A    between atoms: C_31  and  C_32
+REMARK   22  A    between atoms: C_32  and  C_33
+REMARK   23  A    between atoms: C_34  and  C_35
+REMARK   24  A    between atoms: C_35  and  C_36
+REMARK   25  A    between atoms: C_36  and  C_37
+REMARK   26  A    between atoms: N_38  and  CA_39
+REMARK   27  A    between atoms: CA_39  and  C_40
+REMARK   28  A    between atoms: CA_39  and  CB_42
+REMARK   29  A    between atoms: N_43  and  CA_44
+REMARK   30  A    between atoms: CA_44  and  C_45
+REMARK   31  A    between atoms: CA_44  and  CB_47
+REMARK   32  A    between atoms: CB_47  and  CG_48
+REMARK   33  A    between atoms: CG_48  and  CD_49
+REMARK   34  A    between atoms: N_52  and  CA_53
+REMARK   35  A    between atoms: CA_53  and  C_54
+REMARK   36  A    between atoms: CA_53  and  CB_56
+REMARK   37  A    between atoms: CB_56  and  CG_57
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   HOH     5       9.838   9.897  -5.201  0.00  0.00    +0.000 OA
+ATOM      2  H   HOH     5      10.808   9.897  -5.201  0.00  0.00    +0.000 HD
+ATOM      3  H   HOH     5       9.515   9.433  -5.989  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0
