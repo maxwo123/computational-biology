@@ -123,6 +123,8 @@ python3 -m venv .venv
 
 External tools: **PyMOL** (visualization / structure ops) and **AutoDock Vina 1.2.7** (`vina` on PATH) must be installed separately.
 
+> **Visualizing the structures and poses:** see **[`VISUALIZATION_GUIDE.md`](VISUALIZATION_GUIDE.md)** — a step-by-step lab manual covering PyMOL (with the `04_scripts/08_pymol_view.py` loader), the Mol* web viewer, py3Dmol, PLIP interaction diagrams, and how to read a docked pose. Note that opening `7:2:2026.pse` shows only the Phase-1 crystals, not the docking results — those load from the `.pdbqt` files as the guide explains.
+
 ---
 
 ## 6. Directory layout
