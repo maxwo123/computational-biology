@@ -44,6 +44,7 @@ Step 4: Chemical Isolation of Native Ligands. Separate the co-crystallized small
 Step 5: Active Site Mapping & Centroid Calculation. Use geometric localization to identify the explicit structural coordinates of the primary binding pockets.
 
 Phase 2: Receptor & Ligand Preparation 
+
 Step 6: Curation of the 20-30 Compound Screening Library. Collect structures of approved drugs alongside historical clinical development dropouts.
 
 Step 7: Ligand Protonation State Standardization. Assign formal biochemical protonation states optimized for matching biological pH parameters.
@@ -59,6 +60,7 @@ Step 11: PDBQT Structural Format Conversion. Convert receptor target coordinates
 Step 12: Active Pocket Grid Box Assignment. Establish strict three-dimensional volumetric bounding boundaries around each binding pocket.
 
 Phase 3: Molecular Docking Executions
+
 Step 13: Execution of Native Re-docking Controls. Dock the isolated crystal ligands back into their original pockets to benchmark configuration values.
 
 Step 14: Root-Mean-Square Deviation Spatial Validation. Evaluate alignment errors mathematically to ensure parameters match known crystallographic values.
@@ -72,6 +74,7 @@ Step 17: High-Throughput Screening Against Human BACE1. Execute automated screen
 Step 18: Log File Extraction Automation. Script data collections to extract raw configuration readouts from text reports.
 
 Phase 4: Data Analysis & Selectivity Mapping
+
 Step 19: Build a centralized data frame (Python/Pandas or Excel) compiling all docking scores.
 
 Step 20: Calculate Selectivity Ratios ( ΔΔG = ΔG_off-target - ΔG_primary ).
@@ -81,6 +84,7 @@ Step 21: Perform statistical clustering to identify structural features correlat
 Step 22: Generate binding pocket alignment maps in PyMOL to highlight key amino acid discrepancies.
 
 Phase 5: Final Review & PI Pitch Preparation
+
 Step 23: Compile data visualizations (scatter plots, affinity heatmaps, and PyMOL structural overlays).
 
 Step 24: Write a comprehensive project report structured like an academic abstract/paper.
