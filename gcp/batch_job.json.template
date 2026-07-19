@@ -1,0 +1,43 @@
+{
+  "taskGroups": [
+    {
+      "taskCount": ${TASK_COUNT},
+      "parallelism": ${PARALLELISM},
+      "taskSpec": {
+        "runnables": [
+          {
+            "container": {
+              "imageUri": "${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO}/hiv-vina:latest"
+            }
+          }
+        ],
+        "environment": {
+          "variables": {
+            "GCS_ROOT": "/mnt/disks/gcs/hiv-docking",
+            "MANIFEST_FILE": "${MANIFEST_FILE}"
+          }
+        },
+        "volumes": [
+          {
+            "gcs": { "remotePath": "${BUCKET}/hiv-docking" },
+            "mountPath": "/mnt/disks/gcs/hiv-docking"
+          }
+        ],
+        "computeResource": { "cpuMilli": 4000, "memoryMib": 8192 },
+        "maxRetryCount": 2,
+        "maxRunDuration": "7200s"
+      }
+    }
+  ],
+  "allocationPolicy": {
+    "instances": [
+      {
+        "policy": {
+          "machineType": "c2d-standard-4",
+          "provisioningModel": "SPOT"
+        }
+      }
+    ]
+  },
+  "logsPolicy": { "destination": "CLOUD_LOGGING" }
+}

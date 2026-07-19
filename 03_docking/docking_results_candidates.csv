@@ -1,0 +1,37 @@
+ligand_id,name,status,receptor,affinity
+cand_2h13diazepin2one_hexahydro56,"2H-1,3-Diazepin-2-one, hexahydro-5,6-dihydroxy-1,3-bis((3-(hydroxymethyl)phenyl)methyl)-4,7-bis(phenylmethyl)-, (4R,5S,6S,7R)-",candidate,hiv_protease,-8.818
+cand_4r5s6s7r47bis4fluorophenylme,"(4R,5S,6S,7R)-4,7-bis[(4-fluorophenyl)methyl]-5,6-dihydroxy-1,3-bis[[4-(hydroxymethyl)phenyl]methyl]-1,3-diazepan-2-one",candidate,hiv_protease,-8.582
+cand_4r5s6s7r47bis34difluoropheny,"(4R,5S,6S,7R)-4,7-bis[(3,4-difluorophenyl)methyl]-5,6-dihydroxy-1,3-bis[[4-(hydroxymethyl)phenyl]methyl]-1,3-diazepan-2-one",candidate,hiv_protease,-8.358
+cand_4r5s6s7r47dibenzyl56dihydrox,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[(4-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,hiv_protease,-8.453
+cand_4r5s6s7r47dibenzyl56dihydrox_2,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[(3-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,hiv_protease,-8.932
+cand_4r5s6s7r47dibenzyl56dihydrox_3,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1-[[4-(hydroxymethyl)phenyl]methyl]-3-(2-naphthylmethyl)-1,3-diazepan-2-one",candidate,hiv_protease,-9.482
+cand_5r6r24bishydroxymethylbenzyl,"(5R,6R)-2,4-Bis[(hydroxymethyl)benzyl]-1,5-dibenzyl-6-hydroxy-3-oxo-1,2,4-triazacycloheptane",candidate,hiv_protease,-8.771
+cand_2h13diazepin2one_hexahydro56_2,"2H-1,3-Diazepin-2-one, hexahydro-5,6-dihydroxy-1,3,4,7-tetrakis(phenylmethyl)-, (4R,5S,6S,7R)-",candidate,hiv_protease,-8.803
+cand_4r5s6s7r13dibenzyl56dihydrox,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-diphenethyl-1,3-diazepan-2-one",candidate,hiv_protease,-9.07
+cand_4r5s6s7r13dibenzyl56dihydrox_2,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-bis[(4-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,hiv_protease,-8.507
+cand_4r5s6s7r13dibenzyl56dihydrox_3,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-bis({[4-(propan-2-yl)phenyl]methyl})-1,3-diazepan-2-one",candidate,hiv_protease,-8.508
+cand_4r5s6s7r13dibenzyl47biscyclo,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(cyclohexylmethyl)-5,6-dihydroxy-1,3-diazepan-2-one",candidate,hiv_protease,-8.965
+cand_2h13diazepin2one_hexahydro56,"2H-1,3-Diazepin-2-one, hexahydro-5,6-dihydroxy-1,3-bis((3-(hydroxymethyl)phenyl)methyl)-4,7-bis(phenylmethyl)-, (4R,5S,6S,7R)-",candidate,cathepsin_d,-6.608
+cand_4r5s6s7r47bis4fluorophenylme,"(4R,5S,6S,7R)-4,7-bis[(4-fluorophenyl)methyl]-5,6-dihydroxy-1,3-bis[[4-(hydroxymethyl)phenyl]methyl]-1,3-diazepan-2-one",candidate,cathepsin_d,-6.775
+cand_4r5s6s7r47bis34difluoropheny,"(4R,5S,6S,7R)-4,7-bis[(3,4-difluorophenyl)methyl]-5,6-dihydroxy-1,3-bis[[4-(hydroxymethyl)phenyl]methyl]-1,3-diazepan-2-one",candidate,cathepsin_d,-6.44
+cand_4r5s6s7r47dibenzyl56dihydrox,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[(4-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,cathepsin_d,-6.443
+cand_4r5s6s7r47dibenzyl56dihydrox_2,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[(3-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,cathepsin_d,-6.095
+cand_4r5s6s7r47dibenzyl56dihydrox_3,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1-[[4-(hydroxymethyl)phenyl]methyl]-3-(2-naphthylmethyl)-1,3-diazepan-2-one",candidate,cathepsin_d,-6.057
+cand_5r6r24bishydroxymethylbenzyl,"(5R,6R)-2,4-Bis[(hydroxymethyl)benzyl]-1,5-dibenzyl-6-hydroxy-3-oxo-1,2,4-triazacycloheptane",candidate,cathepsin_d,-7.009
+cand_2h13diazepin2one_hexahydro56_2,"2H-1,3-Diazepin-2-one, hexahydro-5,6-dihydroxy-1,3,4,7-tetrakis(phenylmethyl)-, (4R,5S,6S,7R)-",candidate,cathepsin_d,-6.507
+cand_4r5s6s7r13dibenzyl56dihydrox,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-diphenethyl-1,3-diazepan-2-one",candidate,cathepsin_d,-6.143
+cand_4r5s6s7r13dibenzyl56dihydrox_2,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-bis[(4-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,cathepsin_d,-6.135
+cand_4r5s6s7r13dibenzyl56dihydrox_3,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-bis({[4-(propan-2-yl)phenyl]methyl})-1,3-diazepan-2-one",candidate,cathepsin_d,-6.95
+cand_4r5s6s7r13dibenzyl47biscyclo,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(cyclohexylmethyl)-5,6-dihydroxy-1,3-diazepan-2-one",candidate,cathepsin_d,-6.766
+cand_2h13diazepin2one_hexahydro56,"2H-1,3-Diazepin-2-one, hexahydro-5,6-dihydroxy-1,3-bis((3-(hydroxymethyl)phenyl)methyl)-4,7-bis(phenylmethyl)-, (4R,5S,6S,7R)-",candidate,bace1,-7.213
+cand_4r5s6s7r47bis4fluorophenylme,"(4R,5S,6S,7R)-4,7-bis[(4-fluorophenyl)methyl]-5,6-dihydroxy-1,3-bis[[4-(hydroxymethyl)phenyl]methyl]-1,3-diazepan-2-one",candidate,bace1,-7.77
+cand_4r5s6s7r47bis34difluoropheny,"(4R,5S,6S,7R)-4,7-bis[(3,4-difluorophenyl)methyl]-5,6-dihydroxy-1,3-bis[[4-(hydroxymethyl)phenyl]methyl]-1,3-diazepan-2-one",candidate,bace1,-7.794
+cand_4r5s6s7r47dibenzyl56dihydrox,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[(4-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,bace1,-7.491
+cand_4r5s6s7r47dibenzyl56dihydrox_2,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1,3-bis[(3-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,bace1,-7.39
+cand_4r5s6s7r47dibenzyl56dihydrox_3,"(4R,5S,6S,7R)-4,7-dibenzyl-5,6-dihydroxy-1-[[4-(hydroxymethyl)phenyl]methyl]-3-(2-naphthylmethyl)-1,3-diazepan-2-one",candidate,bace1,-6.996
+cand_5r6r24bishydroxymethylbenzyl,"(5R,6R)-2,4-Bis[(hydroxymethyl)benzyl]-1,5-dibenzyl-6-hydroxy-3-oxo-1,2,4-triazacycloheptane",candidate,bace1,-7.002
+cand_2h13diazepin2one_hexahydro56_2,"2H-1,3-Diazepin-2-one, hexahydro-5,6-dihydroxy-1,3,4,7-tetrakis(phenylmethyl)-, (4R,5S,6S,7R)-",candidate,bace1,-7.623
+cand_4r5s6s7r13dibenzyl56dihydrox,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-diphenethyl-1,3-diazepan-2-one",candidate,bace1,-7.589
+cand_4r5s6s7r13dibenzyl56dihydrox_2,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-bis[(4-hydroxyphenyl)methyl]-1,3-diazepan-2-one",candidate,bace1,-7.693
+cand_4r5s6s7r13dibenzyl56dihydrox_3,"(4R,5S,6S,7R)-1,3-dibenzyl-5,6-dihydroxy-4,7-bis({[4-(propan-2-yl)phenyl]methyl})-1,3-diazepan-2-one",candidate,bace1,-7.806
+cand_4r5s6s7r13dibenzyl47biscyclo,"(4R,5S,6S,7R)-1,3-dibenzyl-4,7-bis(cyclohexylmethyl)-5,6-dihydroxy-1,3-diazepan-2-one",candidate,bace1,-6.862
